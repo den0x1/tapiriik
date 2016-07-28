@@ -28,6 +28,8 @@ from tapiriik.services.Smashrun import SmashrunService
 Smashrun = SmashrunService()
 from tapiriik.services.BeginnerTriathlete import BeginnerTriathleteService
 BeginnerTriathlete = BeginnerTriathleteService()
+from tapiriik.services.PowerTraxx import PowerTraxxService
+PowerTraxx = PowerTraxxService()
 
 PRIVATE_SERVICES = []
 try:

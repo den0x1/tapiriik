@@ -27,7 +27,8 @@ def privacy(request):
     services["trainerroad"].update({"email": OPTIN, "password": OPTIN, "tokens": NO, "metadata": YES, "data":NO})
     services["smashrun"].update({"email": NO, "password": NO, "tokens": YES, "metadata": YES, "data":NO})
     services["beginnertriathlete"].update({"email": OPTIN, "password": OPTIN, "tokens": NO, "metadata": YES, "data": NO})
-
+    services["powertraxx"].update({"email": NO, "password": NO, "tokens": YES, "metadata": YES, "data":NO})
+    
     for svc_id in SOFT_LAUNCH_SERVICES:
         if svc_id in services:
             del services[svc_id]
