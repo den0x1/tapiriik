@@ -320,7 +320,7 @@ tapiriik.OpenServiceConfigPanel = function(svcId){
 		$("input", destRow).attr("service", i);
 		$("table", configPanel).append(destRow);
 	}
-	if (svcId == "strava" || svcId == "runkeeper" || svcId == "sporttracks" || svcId == "garminconnect" || svcId == "motivato" || svcId == "velohero")
+	if (svcId == "strava" || svcId == "runkeeper" || svcId == "sporttracks" || svcId == "garminconnect" || svcId == "motivato" || svcId == "velohero" || svcId == "powertraxx")
 	{
 		if (tapiriik.ServiceInfo[svcId].Config.sync_private)
 		{
