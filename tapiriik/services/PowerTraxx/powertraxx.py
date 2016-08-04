@@ -30,7 +30,7 @@ class PowerTraxxService(ServiceBase):
 
     SupportsActivityDeletion = True
     AuthenticationNoFrame = True
-    BaseUrl = "http://localhost:52060"
+    BaseUrl = "https://www.powertraxx.de"
 
     # mapping powertraxx -> common
     _activityMappings = {
